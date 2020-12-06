@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("../fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
+
+
+@font-face {
+	font-family: "Banny";
+	src: url("../fonts/Banny/Banny-Round.otf") format("opentype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Banny";
+	src: url("../fonts/Banny/Banny-BoldRound.otf") format("opentype");
+	font-style: normal;
+	font-weight: bold;
+}

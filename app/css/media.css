@@ -1,0 +1,289 @@
+@media screen and (max-width: 1420px) {
+    
+}
+
+@media screen and (max-width: 1100px) {
+    h2, legend {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .header__title {
+        font-size: 70px;
+    }
+
+    .header .block-lines__item-left::after {
+        width: 150px;
+    }
+    
+    .header .block-lines__item-right::before {
+        width: 150px;
+        transform: translate(-149px, 0);
+    }
+
+    .specialties__slider-elem {
+        flex-wrap: wrap;
+    }
+
+    .specialties__text-container {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    .specialties__img-block {
+        width: auto;
+    }
+
+    
+}
+
+@media screen and (max-width: 800px) {
+    .header__menu {
+        width: 92%;
+    }
+
+    .header__menu-item_placeholder {
+        display: none;
+    }
+
+    .header__content {
+        margin-top: 150px;
+    }
+    
+
+    .header__schedule {
+        left: 30px;
+        bottom: 275px;
+    }
+
+    .social-buttons {
+        right: 30px;
+        
+    }
+
+    .block-lines__item-left,
+    .block-lines__item-right,
+    .block-line__img {
+        display: none;
+    }
+
+    .header .block-lines__item-middle::after {
+        height: 100px;
+        transform: translate(0, -100px);
+    }
+
+    .booking__form-container {
+        margin: 0;
+    }
+
+    .booking__form {
+        text-align: center;
+        
+    }
+
+    .booking__form-group {
+        margin: 0 auto;
+    }
+
+    .booking__form-input {
+        margin-bottom: 10px;
+        width: 90%;
+        height: 40px;
+    }
+
+    .booking__form-submit {
+        width: 90%;
+    }
+
+	
+}
+
+@media screen and (max-width: 720px) {
+    .booking__img-squad {
+        display: none;
+    }
+
+    .specialties .wrap {
+        padding: 20px 0;
+        position: relative;
+    }
+    
+    .specialties__img {
+        width: 100%;
+    }
+
+    .specialties__img-squad {
+        display: none;
+    }
+
+    .specialties__text-container {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    p, li, span, div, button, a {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    h2, legend {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .title {
+        font-size: 10px;
+    }
+
+    .header__menu-button {
+		display: block;
+    }
+    
+    .header .wrap.open-menu .header__menu-button {
+		top: 175px;
+	}
+
+    .header__menu {
+        margin: 0;
+        position: absolute;
+        top: -200px;
+        right: 10px;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        transition: top 0.3s ease-in;
+    }
+
+
+    .header__menu-item a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .header .wrap.open-menu .header__menu {
+        top: 10px;
+    }
+
+    .header__title {
+        font-size: 46px;
+        line-height: 60px;
+    }
+
+    .header__button-explore,
+    .header__button-book {
+        height: 40px;
+    }
+
+    .social-buttons {
+        top: 60px;
+        left: 10px;
+        right: auto;
+    }
+
+    .header__schedule {
+        left: 50%;
+        bottom: 155px;
+        width: auto;
+        transform: translate(-50%, 0);
+    }
+
+    .header__schedule-text {
+        transform: rotate(0);
+    }
+
+    .header__timer {
+        top: 0;
+        width: 210px;
+        height: 50px;
+    }
+
+    .header__timer-text, 
+    .header__timer-text span{
+        font-size: 34.46px;
+        line-height: 50px;
+    }
+
+    .header .block-lines__item-middle::after {
+        display: none;
+    }
+
+    .booking__img-block {
+        width: 100%;
+    }
+
+    .booking__img {
+        width: 100%;
+    }
+
+    .specialties__text_bold {
+        font-size: 12.773px;
+        line-height: 20px;
+    }
+
+    .specialties__text_normal {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .menu .wrap {
+        padding: 20px 0 30px;
+    }
+
+    .menu__text {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .menu__submenu {
+        width: 96%;
+        justify-content: space-around;
+    }
+
+    .menu__submenu-item {
+        padding: 3px 5px;
+    }
+
+    .menu__list-item {
+        margin: 10px;
+        display: inline-block;
+    }
+
+    .menu__list-text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .menu__list-text_grey {
+        text-align: left;
+    }
+
+    .events__img-weddings {
+        width: 100%;
+    }
+
+    .events__img-weddings-squad {
+        display: none;
+    }
+
+    .events__img-parties {
+        width: 100%;
+    }
+
+    .events__img-parties-squad {
+        display: none;
+    }
+
+    .events__weddings-block,
+    .events__parties-block {
+        top: 77%;
+        left: 8.2%;
+        width: 83.5%;
+        height: 56px;
+        background-color: #000000;
+        border-radius: 0 0 5px 5px;
+        transform: rotate(0);
+    }
+    
+}
